@@ -6,7 +6,7 @@
     "body": {
       "background": {
         "type": "html",
-        "url": "https://www.google.com",
+        "url": "https://ajaxon.bywatersolutions.com",
         "action": {
           "type": "$default"
         }
