@@ -1,11 +1,43 @@
 {
-  "body": {
-    "background": {
-      "type": "html",
-      "url": "https://www.google.com",
-      "action": {
-        "type": "$default"
-      }
+  "$jason": {
+    "head": {
+      "title": "Basic Tableview"
+    },
+    "body": {
+      "sections": [
+        {
+          "header": {
+            "type": "label",
+            "text": "This is the first section header"
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "This is the only item in the first section"
+            }
+          ]
+        },
+        {
+          "header": {
+            "type": "label",
+            "text": "This is a header item"
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "This is the first item inside items array"
+            },
+            {
+              "type": "label",
+              "text": "This is the second item inside items array"
+            },
+            {
+              "type": "label",
+              "text": "This is the third item inside items array"
+            }
+          ]
+        }
+      ]
     }
   }
 }
